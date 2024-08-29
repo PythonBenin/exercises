@@ -3,7 +3,9 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [How to participate](#how-to-participate)
 - [Challenges](#challenges)
+- [Contributing](#contributing)
 - [Community](#community)
 
 ## Overview
