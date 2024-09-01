@@ -98,18 +98,20 @@ python program.py < in.txt > out.txt
 
 ```bash
 g++ -o program -std=c++17 main.cpp
-./program < input.txt > output.txt
+./program < in.txt > out.txt
 ```
 
 ### NodeJS
 
 ```bash
-node program.js < input.txt > output.txt
+node program.js < in.txt > out.txt
 ```
 
 ### Java
 
 ```bash
 javac MyProgram.java
-java MyProgram
-````
+java MyProgram < in.txt > out.txt
+```
+
+You can then check your program results by inspecting the `out.txt` file.
