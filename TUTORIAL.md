@@ -91,7 +91,7 @@ on test data with I/O redirections.
 ### Python
 
 ```bash
-python program.py < input.txt > output.txt
+python program.py < in.txt > out.txt
 ```
 
 ### C++

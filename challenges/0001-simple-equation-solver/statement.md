@@ -53,5 +53,5 @@ d = -3
 The script `generator.py` can be used to generate test data. Just run:
 
 ```bash
-python generator.py > input.txt
+python generator.py > in.txt
 ```
