@@ -38,7 +38,7 @@ the challenge.
 
 ## Challenges
 
-No challenge for the moment. :stuck_out_tongue_closed_eyes:
+1. [Simple equation solver](/challenges/0001-simple-equation-solver/statement.md)
 
 ## Contributing
 
