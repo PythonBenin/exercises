@@ -1,6 +1,6 @@
 # exercises
 
-## Table of Contents
+## Table of contents
 
 - [Overview](#overview)
 - [How to participate](#how-to-participate)
