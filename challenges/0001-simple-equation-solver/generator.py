@@ -2,7 +2,7 @@ from random import randrange, randint, choice, shuffle
 from string import ascii_lowercase
 from itertools import islice
 
-case_count = 10
+case_count = 100
 lo, hi = -100, 100
 signs = ['+', '-']
 extended_signs = ['', '+', '-']
