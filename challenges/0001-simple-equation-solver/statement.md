@@ -1,4 +1,4 @@
-# Find X
+# Find x
 
 ## Problem description
 
