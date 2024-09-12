@@ -1,4 +1,4 @@
-# Dunk
+# Dunks
 
 ## Problem description
 
@@ -14,8 +14,8 @@ have ended on the guy getting dunked on in the first clip so the video is
 like an infinite loop".
 
 Your task will be the following: given a list of dunk highlights, you need
-to determine if we can create an infine loop by using all or a subset of the
-clips. An infinite loop means that the player that ends the clip should be
+to determine if we can create a video that gives the expression of an infinite
+loop. An infinite loop means that the player that ends the clip should be
 the one that get dunked on at the start.
 
 ## Input
@@ -24,15 +24,16 @@ You input consist of several testcases, but no more than $100$.
 
 The first line of input contains an integer $N$, the number of testcases
 in the file. Each testcase starts with a line that contains an integer
-$H \le 1000$ which the number of clips available. $H$ lines that represent
-the available clips follow. Each clip consists of with two strings separated
+$H \le 1000$, the number of clips available. $H$ lines that describe the
+available clips follow. Each clip consists of with two strings separated
 by an space: the name of the player that made the dunk and the name of his
-"victim". Each name will consist of letters and digits, with no space.
+"victim". Each name will consist of letters, underscores, and digits with
+no space between.
 
 ## Output
 
-For each testcase, output the length of the longest loop that can be created,
-i.e. the number of clips in the longest video that can be created.
+For each testcase, output the length of the longest loop, i.e. the number
+of clips in the longest video that can be created.
 
 If it is not possible to create an infinite loop, output the number $0$.
 
@@ -40,8 +41,18 @@ If it is not possible to create an infinite loop, output the number $0$.
 
 ```txt
 3
-15
-Jason_Tatum Lebon_James
+11
+Jason_Tatum LeBron_James
+Chris_Paul Dwight_Howard
+Russel_Westbrook Rudy_Gobert
+Kobe_Bryant Chris_Paul
+John_Collins Joel_Embiid
+Joel_Embiid Russel_Westbrook
+LeBron_James Jason_Terry
+Jason_Terry Jason_Tatum
+Anthony_Edwards John_Collins
+John_Collins Anthony_Edwards
+Dwight_Howard Chris_Paul
 5
 Murasakibara_Atsushi Kiyoshi_Teppei
 Aomine_Daiki Kagami_Taiga
@@ -57,7 +68,7 @@ Scottie_Pippen Patrick_Ewing
 ## Sample ouptut
 
 ```txt
-x
+3
 2
 0
 ```
