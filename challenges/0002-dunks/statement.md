@@ -25,10 +25,10 @@ You input consist of several testcases, but no more than $100$.
 The first line of input contains an integer $N$, the number of testcases
 in the file. Each testcase starts with a line that contains an integer
 $H \le 1000$, the number of clips available. $H$ lines that describe the
-available clips follow. Each clip consists of with two strings separated
-by an space: the name of the player that made the dunk and the name of his
-"victim". Each name will consist of letters, underscores, and digits with
-no space between.
+available clips follow. Each clip consists of two strings separated by an
+space: the name of the player that made the dunk and the name of his "victim".
+Each name will consist of letters, underscores, and digits with no space
+between.
 
 ## Output
 
@@ -72,3 +72,24 @@ Scottie_Pippen Patrick_Ewing
 2
 0
 ```
+
+## Explanations
+
+In the first testcase, the longest video we can create a video by using
+the clips:
+
+- LeBron_James Jason_Terry,
+- Jason_Tatum LeBron_James,
+- and Jason_Terry Jason_Tatum.
+
+Since there are $3$ clips, the answer to this testcase is $3$.
+We can create other videos. For example we can use the clip of Chris_Paul
+dunking on Dwight_Howard, and the clip of Dwight_Howard dunking on Chris_Paul
+later. But the video will contain only two clips.
+
+In the second testcase, we can create only one video by using the dunk of
+Aomine_Daiki on Kagami_Taiga and the dunk of Kagami_Taiga on Aomine_Daiki.
+So the answer for this testcase is $2$.
+
+For the last testcase, it is not possible to create a video from the clips
+available, so the answer is $0$.
