@@ -18,6 +18,10 @@ to determine if we can create a video that gives the expression of an infinite
 loop. An infinite loop means that the player that ends the clip should be
 the one that get dunked on at the start.
 
+For simplicity, we add a restriction on the number of times a player can
+appear in the video. A player can appear only twice in the video: in the clip
+where he performed the dunk, and in the next clip where he gets dunked on.
+
 ## Input
 
 You input consist of several testcases, but no more than $100$.
