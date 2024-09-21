@@ -39,6 +39,7 @@ the challenge.
 ## Challenges
 
 1. [Simple equation solver](/challenges/0001-simple-equation-solver/statement.md)
+2. [Dunks](/challenges/0002-dunks/statement.md)
 
 ## Contributing
 
