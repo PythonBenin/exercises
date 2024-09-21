@@ -10,4 +10,4 @@ algorithm has to to be extended to find all the cycles and select the longest.
 
 If you are new to graph theory, you can watch
 [this series](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
-of videos en YouTube.
+of videos on YouTube.
