@@ -40,6 +40,7 @@ the challenge.
 
 1. [Simple equation solver](/challenges/0001-simple-equation-solver/statement.md)
 2. [Dunks](/challenges/0002-dunks/statement.md)
+3. [Burrows-Wheeler](/challenges/0003-burrows-wheeler/statement.md)
 
 ## Contributing
 
