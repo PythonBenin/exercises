@@ -21,7 +21,7 @@ def sorted_cyclic_shifts(s):
     n = len(s)
     shifts = [Shift(j, s) for j in range(n)]
     ranks = [ord(c) for c in s]
-    length, limit = 1, 2 * n
+    length, limit = 2, 2 * n
     while length < limit:
         h = length // 2
         for shift in shifts:
