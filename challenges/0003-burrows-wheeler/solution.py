@@ -16,7 +16,7 @@ class Shift:
 def sorted_cyclic_shifts(s):
     """Sort all cyclic shifts of a string.
 
-    Code from http://cp-algorithms.com/string/suffix-array.html.
+    Code adapted from http://cp-algorithms.com/string/suffix-array.html.
     """
     n = len(s)
     shifts = [Shift(j, s) for j in range(n)]
