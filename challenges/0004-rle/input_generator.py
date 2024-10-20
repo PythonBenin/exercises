@@ -8,7 +8,7 @@ max_run_length = len(digits) - 1
 
 
 def batched(iterable, n, *, strict=False):
-    """Available in Python 3.12"""
+    """Available in the itertools module from Python 3.12"""
     if n < 1:
         raise ValueError('n must be at least one')
     iterator = iter(iterable)
@@ -19,6 +19,7 @@ def batched(iterable, n, *, strict=False):
 
 
 def to_int(d: str):
+    """Convert a base 62 digit to int"""
     if d.isdigit():
         return ord(d) - ord('0')
     elif d.isupper():
@@ -73,6 +74,7 @@ def rle_decode(s):
     return ''.join(builder)
 
 
-for g in generate_rle_suitable_strings():
-    ch, s = ('E', g) if randint(1, 100) % 2 == 0 else ('D', rle_encode(g))
-    print(f'{ch} {s}')
+if __name__ == '__main__':
+    for g in generate_rle_suitable_strings():
+        ch, s = ('E', g) if randint(1, 100) % 2 == 0 else ('D', rle_encode(g))
+        print(f'{ch} {s}')
