@@ -42,6 +42,7 @@ the challenge.
 2. [Dunks](/challenges/0002-dunks/statement.md)
 3. [Burrows-Wheeler](/challenges/0003-burrows-wheeler/statement.md)
 4. [Run-length encoding (RLE)](/challenges/0004-rle/statement.md)
+5. [Garbadrome](/challenges/0005-garbadrome/statement.md)
 
 ## Contributing
 
