@@ -56,3 +56,9 @@ list the coins used for an input value.
   divisible by it.
 - **Large Value of X**: Ensure that the solution is efficient enough to
   handle large values of $X$, up to $10 000$, as specified.
+
+
+##  Disclaimer
+
+Editorial partially provided by ChatGPT. So, it's possible than you find parts
+of it on random websites. :smile:
